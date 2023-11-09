@@ -9,6 +9,16 @@
 	<link rel="stylesheet" type="text/css" href="css/sourcesanspro-font.css">
 	<!-- Main Style Css -->
     <link rel="stylesheet" href="css/style.css"/>
+	<style>
+		#log a{
+			text-decoration: none;
+			color: rgb(12, 12, 12);
+			font-size: 30px;font-weight: bold;
+			background-color: rgb(226, 221, 113);
+			padding: 10px;
+			border-radius: 5px;
+		}
+	</style>
 </head>
 <body class="form-v8">
 	<div class="page-content">
@@ -25,7 +35,7 @@
 						<button class="tablinks" onclick="openCity(event, 'sign-in')">Sign In</button>
 					</div>
 				</div>
-				<form class="form-detail">
+				<form class="form-detail" >
 					<div class="tabcontent" id="sign-up">
 						<div class="form-row">
 							<label class="form-row-inner">
@@ -55,12 +65,12 @@
 								<span class="border"></span>
 							</label>
 						</div>
-						<div class="form-row-last">
-							<a href="user_page.html" ><input type="submit" name="register" class="register" value="Sign Up"></a>
-						</div>
+						<div class="form-row-last" id="log">
+							<a href="user_page.html">Sign Up</a>
+						</div></a>
 					</div>
 				</form>
-				<form class="form-detail" >
+				<form class="form-detail" action="user_page.html" method="post">
 					<div class="tabcontent" id="sign-in">
 						<div class="form-row">
 							<label class="form-row-inner">
@@ -90,9 +100,9 @@
 								<span class="border"></span>
 							</label>
 						</div>
-						<div class="form-row-last">
-							<a href="user_page.html" ><input type="submit" name="register" class="register" value="Sign In"></a>
-						</div>
+						<div class="form-row-last" id="log">
+							<a href="user_page.html">Log In</a>
+						</div></a>
 					</div>
 				</form>
 			</div>
