@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User 2</title>
+    <link href="login.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- Option 1: Include in HTML -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <style>
+        body{
+          background-color: #E6E6E6;
+        }
+        .navbar navbar-expand-lg bg-body-tertiarz{
+          position:fixed;
+        }
+        #c1{
+            background-color: white;
+            height: auto;
+            width: 300px;
+            float: left;
+            margin-left: -115px;
+            margin-top: 100px;
+        }
+        #c2{
+            background-color:#E6E6E6;
+            height: auto;
+            width: 700px;
+            margin-top: 70px;
+            margin-left: -55px;
+            margin-right: -60px;
+            border-radius: 10px;
+        }
+        #c3{
+            background-color: white;
+            height: auto;
+            width: 300px;
+            float: right;
+            margin-top: 100px;
+            margin-right: -125px ;
+        }
+       #nav{
+        padding: 5px;
+
+        border-radius: 5px;
+       }
+        #pro_img{
+            border-radius: 100%;
+            margin-top: -80px;
+            
+        }
+        #post_tab
+        {
+          background-color: white;
+          width: 700px;
+          margin-top: 10px;
+          margin-bottom: -40px;
+          border-radius: 10px;
+        }
+        .post{
+          background-color: white;
+          height: auto;
+          border-radius: 10px;
+          width: 75%;
+          margin-left: 80px;
+          margin-top: -30px;
+        }
+        .head,.time{
+          
+          margin-left: -340px;
+        }
+        img.head{
+          margin-top: 5px;
+        }
+        #frnd_img{
+            border-radius: 100%;
+        }
+        li{
+         list-style-type: none;
+        }
+        .frnd{
+          
+          padding: 3px;
+          margin-left: -25px;
+        }
+        a{
+          text-decoration: none;
+          color: black;
+        }
+    </style>
+</head>
+<body>
+    <nav  class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <b><a class="navbar-brand" href="#" style="color: #1e1edb;">Social Media</a></b>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="container text-center" id="post_tab">
+        <div class="row">
+          <div class="col" id="nav">
+            <a href="#"></a><i class="bi bi-pencil-square"></i> Add Post</a>
+          </div>
+          <div class="col" id="nav">
+            <i class="bi bi-eye-fill"></i>View Post
+          </div>
+          <div class="col" id="nav">
+            <i class="bi bi-gear"></i>Settings
+          </div>
+        </div>
+      </div>
+      <!--Personal Information-->
+    <div class="container px-4 text-center">
+        <div class="row gx-5">
+          <div class="col">
+           <div class="p-3" id="c1">
+              <img src="images/form-v8.jpg"  width="135px" height="135px" id="pro_img" alt=""><br>
+              <div class="container" id="user_id">
+                <h3 style="color: #1e1edb;">_.rajesh_101</h3>
+                <h4 style="color: #717174;">Rajesh kumar</h4>
+              </div><hr>
+              <div class="container">
+                <p align="left">Software Engineer<br>Lives at Trichy<br>Techical Person</p>
+              </div>
+           </div>
+          </div>
+
+
+          <!--Post uploading section-->
+          <div class="col">
+            <div class="p-3" id="c2">
+             <div class="post">
+              <br>
+                <div class="head"><img src="images/form-v8.jpg" width="35px" height="35px" id="frnd_img">  <b>_.rajesh_101</b></div>
+                <div class="time"><p style="font-size: smaller;"><i>5 mins ago</i></p></div>
+                <div class="caption"><p>Web Development comprises of HTML,CSS and JavaScript<br>It is my favorite feild of study</p></div>
+                <div class="content"><img src="images/post_pic3.jpg" height="400px" width="100%"></div>
+                <br>
+              <div class="rewards">
+                <i class="bi bi-heart"></i> Like&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <i class="bi bi-chat-left-text"></i> Comment&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <i class="bi bi-bookmark"></i> Save
+              </div>
+              <br>
+             </div>
+             <br><br>
+             <div class="post">
+              <br>
+                <div class="head"><img src="images/form-v8.jpg" width="35px" height="35px" id="frnd_img">  <b>_.rajesh_101</b></div>
+                <div class="time"><p style="font-size: smaller;"><i>a month ago</i></p></div>
+                <div class="caption"><p>Code debugging is an interesting subject in coding<br>Bugs has to be identified and correcteds</p></div>
+                <div class="content"><img src="images/debugg.jpg" height="400px" width="100%"></div>
+                <br>
+              <div class="rewards">
+                <i class="bi bi-heart"></i> Like&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <i class="bi bi-chat-left-text"></i> Comment&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <i class="bi bi-bookmark"></i> Save
+              </div>
+              <br>
+             </div>
+             <br><br>
+
+            </div>
+          </div>
+
+
+          <!--Friends List displaying-->
+          <div class="col">
+            <div class="p-3" id="c3">
+              <div><h4>Friends Connected</h4></div>
+              <a href="user_page.html"><div class="frnd" align="left"  >
+                <ul>
+                  <li><img src="images/profile_pic3.jpg" width="40px" height="40px" id="frnd_img">   Venkatraman</li>
+                </ul>
+              </div></a>
+              <a href="#"><div class="frnd" align="left">
+                <ul>
+                  <li><img src="images/profile_pic.jpg" width="40px" height="40px" id="frnd_img">   Karthika </li>
+                </ul>
+              </div></a>
+              <a href="#"><div class="frnd" align="left" >
+                <ul>
+                  <li><img src="images/blank_pic.jpg" width="40px" height="40px" id="frnd_img"> Adhithya</li>
+                </ul>
+              </div></a>
+              <a href="#"><div class="frnd" align="left" >
+                <ul>
+                  <li><img src="images/profile_pic5.jpg" width="40px" height="40px" id="frnd_img">   Naveen Kumar</li>
+                </ul>
+              </div></a>
+              <a href="#"><div class="frnd" align="left" >
+                <ul>
+                  <li><img src="images/profile_pic3.jpg" width="40px" height="40px" id="frnd_img">  Binu Joel</li>
+                </ul>
+              </div></a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
